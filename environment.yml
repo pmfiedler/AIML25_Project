@@ -22,6 +22,7 @@ dependencies:
   - python-decouple
   - tqdm
   - pre-commit
+  - langchain-community
 
   # spaCy core + transformers support
   - spacy
@@ -42,4 +43,5 @@ dependencies:
       - requests
       # spaCy extras
       - spacy-lookups-data
+      - rapidfuzz
 
